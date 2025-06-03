@@ -76,7 +76,7 @@ function Home() {
     try {
       // const url = `${APIurl}/expense`;
       //  this will send data to server
-      const url = "http://localhost:8080/expenses";
+      const url = "https://fin-app-backend.vercel.app/expenses";
       const response = await fetch(url, {
         method: "POST",
         headers: {
