@@ -49,7 +49,7 @@ function Home() {
   //Fetch Expense from backend -to show the products by calling an API
   const fetchExpenses = async () => {
     try {
-      const url = "http://localhost:8080/expenses";
+      const url = "https://fin-app-backend.vercel.app/expenses";
 
       // const url = `${APIurl}/expenses`;
       const headers = {
